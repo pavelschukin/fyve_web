@@ -1,20 +1,20 @@
 {
-  "uid" : "563e88dc0431e1eb",
-  "name" : "User cannot register with invalid number",
-  "fullName" : "tests.test_registration.TestRegistration#test_user_cannot_register_with_invalid_number",
-  "historyId" : "01454ce18d9b96f79335e6c6397ed0fc",
+  "uid" : "8100c20b0b6ae663",
+  "name" : "User can resend code",
+  "fullName" : "tests.test_registration.TestRegistration#test_user_can_resend_code",
+  "historyId" : "cd952827b653b0c669f384bd795ebf88",
   "time" : {
-    "start" : 1615497447531,
-    "stop" : 1615497447965,
-    "duration" : 434
+    "start" : 1615498032581,
+    "stop" : 1615498093462,
+    "duration" : 60881
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "inject_config",
     "time" : {
-      "start" : 1615497443960,
-      "stop" : 1615497443960,
+      "start" : 1615498030428,
+      "stop" : 1615498030428,
       "duration" : 0
     },
     "status" : "passed",
@@ -28,9 +28,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1615497427221,
-      "stop" : 1615497427274,
-      "duration" : 53
+      "start" : 1615498014964,
+      "stop" : 1615498014992,
+      "duration" : 28
     },
     "status" : "passed",
     "steps" : [ ],
@@ -43,17 +43,17 @@
   }, {
     "name" : "open_base_url",
     "time" : {
-      "start" : 1615497443960,
-      "stop" : 1615497447530,
-      "duration" : 3570
+      "start" : 1615498030428,
+      "stop" : 1615498032581,
+      "duration" : 2153
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Open url",
       "time" : {
-        "start" : 1615497445254,
-        "stop" : 1615497447530,
-        "duration" : 2276
+        "start" : 1615498031711,
+        "stop" : 1615498032581,
+        "duration" : 870
       },
       "status" : "passed",
       "steps" : [ ],
@@ -79,39 +79,36 @@
     "steps" : [ {
       "name" : "Submit phone number",
       "time" : {
-        "start" : 1615497447531,
-        "stop" : 1615497447938,
-        "duration" : 407
+        "start" : 1615498032582,
+        "stop" : 1615498033109,
+        "duration" : 527
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "phone",
-        "value" : "'00000'"
+        "value" : "'4759900000'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "Check error text for mobile number validation is correct",
+      "name" : "Resend otp code",
       "time" : {
-        "start" : 1615497447938,
-        "stop" : 1615497447965,
-        "duration" : 27
+        "start" : 1615498093164,
+        "stop" : 1615498093462,
+        "duration" : 298
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "text",
-        "value" : "'Please enter a valid phone number'"
-      } ],
+      "parameters" : [ ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
@@ -123,18 +120,18 @@
   "afterStages" : [ {
     "name" : "open_base_url::0",
     "time" : {
-      "start" : 1615497447966,
-      "stop" : 1615497449150,
-      "duration" : 1184
+      "start" : 1615498093463,
+      "stop" : 1615498093951,
+      "duration" : 488
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7aa54be2f09bcd66",
+      "uid" : "48e24b138f388b90",
       "name" : "Screenshot",
-      "source" : "7aa54be2f09bcd66.png",
+      "source" : "48e24b138f388b90.png",
       "type" : "image/png",
-      "size" : 880405
+      "size" : 900761
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -144,7 +141,7 @@
   } ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "Bets History Page"
+    "value" : "Registration"
   }, {
     "name" : "tag",
     "value" : "@pytest.mark.usefixtures('open_base_url')"
@@ -159,10 +156,10 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "fv-az127-851"
+    "value" : "fv-az361-96"
   }, {
     "name" : "thread",
-    "value" : "4559-MainThread"
+    "value" : "4977-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -186,6 +183,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.usefixtures('open_base_url')" ]
   },
-  "source" : "563e88dc0431e1eb.json",
+  "source" : "8100c20b0b6ae663.json",
   "parameterValues" : [ ]
 }

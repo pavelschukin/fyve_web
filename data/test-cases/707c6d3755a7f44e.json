@@ -1,20 +1,20 @@
 {
-  "uid" : "5b5375eabc011104",
-  "name" : "User can register in approved state - Florida",
-  "fullName" : "tests.test_registration.TestRegistration#test_user_can_register_in_approved_state",
-  "historyId" : "6d8bd09680aec41692a6821910e9f839",
+  "uid" : "707c6d3755a7f44e",
+  "name" : "User cannot register without email",
+  "fullName" : "tests.test_registration.TestRegistration#test_user_cannot_register_without_email",
+  "historyId" : "618939a1793530e1fd807739b1f7f026",
   "time" : {
-    "start" : 1615497436643,
-    "stop" : 1615497442435,
-    "duration" : 5792
+    "start" : 1615498027454,
+    "stop" : 1615498029921,
+    "duration" : 2467
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "inject_config",
     "time" : {
-      "start" : 1615497427227,
-      "stop" : 1615497427227,
+      "start" : 1615498025513,
+      "stop" : 1615498025513,
       "duration" : 0
     },
     "status" : "passed",
@@ -28,17 +28,17 @@
   }, {
     "name" : "open_base_url",
     "time" : {
-      "start" : 1615497427228,
-      "stop" : 1615497436641,
-      "duration" : 9413
+      "start" : 1615498025513,
+      "stop" : 1615498027453,
+      "duration" : 1940
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Open url",
       "time" : {
-        "start" : 1615497433524,
-        "stop" : 1615497436641,
-        "duration" : 3117
+        "start" : 1615498026801,
+        "stop" : 1615498027453,
+        "duration" : 652
       },
       "status" : "passed",
       "steps" : [ ],
@@ -61,9 +61,9 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1615497427198,
-      "stop" : 1615497427227,
-      "duration" : 29
+      "start" : 1615498014964,
+      "stop" : 1615498014992,
+      "duration" : 28
     },
     "status" : "passed",
     "steps" : [ ],
@@ -77,26 +77,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Generate phone",
-      "time" : {
-        "start" : 1615497436643,
-        "stop" : 1615497436643,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
       "name" : "Generate first name",
       "time" : {
-        "start" : 1615497436643,
-        "stop" : 1615497436755,
-        "duration" : 112
+        "start" : 1615498027454,
+        "stop" : 1615498027464,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,10 +92,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Generate email",
+      "name" : "Generate phone",
       "time" : {
-        "start" : 1615497436755,
-        "stop" : 1615497436755,
+        "start" : 1615498027465,
+        "stop" : 1615498027465,
         "duration" : 0
       },
       "status" : "passed",
@@ -124,16 +109,16 @@
     }, {
       "name" : "Submit phone number",
       "time" : {
-        "start" : 1615497436755,
-        "stop" : 1615497438613,
-        "duration" : 1858
+        "start" : 1615498027465,
+        "stop" : 1615498027990,
+        "duration" : 525
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "phone",
-        "value" : "'8257400000'"
+        "value" : "'1516600000'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -142,79 +127,43 @@
     }, {
       "name" : "Submit signup form",
       "time" : {
-        "start" : 1615497438693,
-        "stop" : 1615497442277,
-        "duration" : 3584
+        "start" : 1615498028002,
+        "stop" : 1615498029898,
+        "duration" : 1896
       },
       "status" : "passed",
-      "steps" : [ {
-        "name" : "Select approved state - Florida or states - Florida and Tennessee",
-        "time" : {
-          "start" : 1615497440831,
-          "stop" : 1615497441013,
-          "duration" : 182
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ {
-          "name" : "multiple",
-          "value" : "None"
-        } ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : true
-      } ],
+      "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "first_name",
-        "value" : "'Test James'"
+        "value" : "'Test Jennifer'"
       }, {
         "name" : "last_name",
-        "value" : "'Taylor'"
+        "value" : "'Greene'"
       }, {
         "name" : "email",
-        "value" : "'521ed44d@example.com'"
+        "value" : "''"
       }, {
         "name" : "property_owner",
         "value" : "None"
-      }, {
-        "name" : "approved_state",
-        "value" : "True"
       } ],
-      "stepsCount" : 1,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "Check user is redirected to Add Property page",
+      "name" : "Check error text for sign up form validation is correct",
       "time" : {
-        "start" : 1615497442277,
-        "stop" : 1615497442377,
-        "duration" : 100
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "Check user property title text is correct",
-      "time" : {
-        "start" : 1615497442378,
-        "stop" : 1615497442435,
-        "duration" : 57
+        "start" : 1615498029898,
+        "stop" : 1615498029921,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "first_name",
-        "value" : "'Test James'"
+        "name" : "text",
+        "value" : "'Error: email must be a valid mail address string'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -223,7 +172,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 8,
+    "stepsCount" : 5,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -231,18 +180,18 @@
   "afterStages" : [ {
     "name" : "open_base_url::0",
     "time" : {
-      "start" : 1615497442436,
-      "stop" : 1615497443015,
-      "duration" : 579
+      "start" : 1615498029922,
+      "stop" : 1615498030424,
+      "duration" : 502
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "9338b6d2d1e2f9df",
+      "uid" : "ac8650586c65654b",
       "name" : "Screenshot",
-      "source" : "9338b6d2d1e2f9df.png",
+      "source" : "ac8650586c65654b.png",
       "type" : "image/png",
-      "size" : 82204
+      "size" : 858225
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -252,7 +201,7 @@
   } ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "Bets History Page"
+    "value" : "Registration"
   }, {
     "name" : "tag",
     "value" : "@pytest.mark.usefixtures('open_base_url')"
@@ -267,10 +216,10 @@
     "value" : "TestRegistration"
   }, {
     "name" : "host",
-    "value" : "fv-az127-851"
+    "value" : "fv-az361-96"
   }, {
     "name" : "thread",
-    "value" : "4568-MainThread"
+    "value" : "4977-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -294,6 +243,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.usefixtures('open_base_url')" ]
   },
-  "source" : "5b5375eabc011104.json",
+  "source" : "707c6d3755a7f44e.json",
   "parameterValues" : [ ]
 }

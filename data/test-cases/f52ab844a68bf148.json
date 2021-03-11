@@ -1,59 +1,29 @@
 {
-  "uid" : "836c98eb51a23a19",
-  "name" : "User can register property in non-approved state - New York as Individual",
-  "fullName" : "tests.test_add_property.TestAddProperty#test_user_can_register_property_in_non_approved_state",
-  "historyId" : "b8dfdffeec365daa897d45792b9a9fd4",
+  "uid" : "f52ab844a68bf148",
+  "name" : "User can register property in approved state - Ohio as Individual with mailing address in non-approved state",
+  "fullName" : "tests.test_add_property.TestAddProperty#test_user_can_register_property_in_approved_state_with_mailing_in_non_approved_state",
+  "historyId" : "c2bde7201a8729b5fb535b7ae5f80abb",
   "time" : {
-    "start" : 1615497436667,
-    "stop" : 1615497443714,
-    "duration" : 7047
+    "start" : 1615498118334,
+    "stop" : 1615498125862,
+    "duration" : 7528
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
-    "name" : "inject_config",
-    "time" : {
-      "start" : 1615497427274,
-      "stop" : 1615497427274,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1615497427221,
-      "stop" : 1615497427274,
-      "duration" : 53
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "open_base_url",
     "time" : {
-      "start" : 1615497427274,
-      "stop" : 1615497436666,
-      "duration" : 9392
+      "start" : 1615498015010,
+      "stop" : 1615498118333,
+      "duration" : 103323
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Open url",
       "time" : {
-        "start" : 1615497433515,
-        "stop" : 1615497436666,
-        "duration" : 3151
+        "start" : 1615498017299,
+        "stop" : 1615498118333,
+        "duration" : 101034
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,15 +43,45 @@
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1615498014980,
+      "stop" : 1615498015009,
+      "duration" : 29
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "inject_config",
+    "time" : {
+      "start" : 1615498015009,
+      "stop" : 1615498015010,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Submit phone number",
       "time" : {
-        "start" : 1615497436698,
-        "stop" : 1615497438417,
-        "duration" : 1719
+        "start" : 1615498118349,
+        "stop" : 1615498118888,
+        "duration" : 539
       },
       "status" : "passed",
       "steps" : [ ],
@@ -97,9 +97,9 @@
     }, {
       "name" : "Submit otp code",
       "time" : {
-        "start" : 1615497438418,
-        "stop" : 1615497439098,
-        "duration" : 680
+        "start" : 1615498118888,
+        "stop" : 1615498118991,
+        "duration" : 103
       },
       "status" : "passed",
       "steps" : [ ],
@@ -115,9 +115,9 @@
     }, {
       "name" : "Check user greeting text is correct",
       "time" : {
-        "start" : 1615497439099,
-        "stop" : 1615497440030,
-        "duration" : 931
+        "start" : 1615498118991,
+        "stop" : 1615498119557,
+        "duration" : 566
       },
       "status" : "passed",
       "steps" : [ ],
@@ -133,9 +133,9 @@
     }, {
       "name" : "Click Add property",
       "time" : {
-        "start" : 1615497440030,
-        "stop" : 1615497440305,
-        "duration" : 275
+        "start" : 1615498119557,
+        "stop" : 1615498119609,
+        "duration" : 52
       },
       "status" : "passed",
       "steps" : [ ],
@@ -148,9 +148,69 @@
     }, {
       "name" : "Fill property address",
       "time" : {
-        "start" : 1615497440305,
-        "stop" : 1615497441540,
-        "duration" : 1235
+        "start" : 1615498119609,
+        "stop" : 1615498119787,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zip",
+        "value" : "'44181'"
+      }, {
+        "name" : "street",
+        "value" : "'7440 Joshua Circles Suite 239'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check city and state in Property Address are correct",
+      "time" : {
+        "start" : 1615498119787,
+        "stop" : 1615498120456,
+        "duration" : 669
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "city",
+        "value" : "'Cleveland'"
+      }, {
+        "name" : "state",
+        "value" : "'OH'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fill Owners info",
+      "time" : {
+        "start" : 1615498120456,
+        "stop" : 1615498120567,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "owners_name",
+        "value" : "'Autotest John'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fill Mailing Address",
+      "time" : {
+        "start" : 1615498120567,
+        "stop" : 1615498120770,
+        "duration" : 203
       },
       "status" : "passed",
       "steps" : [ ],
@@ -160,18 +220,18 @@
         "value" : "'10001'"
       }, {
         "name" : "street",
-        "value" : "'41009 Phillips Summit Apt. 720'"
+        "value" : "'7440 Joshua Circles Suite 239'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "Check city and state in Property Address are correct",
+      "name" : "Check city and state in Mailing Address are correct",
       "time" : {
-        "start" : 1615497441540,
-        "stop" : 1615497441736,
-        "duration" : 196
+        "start" : 1615498120770,
+        "stop" : 1615498121220,
+        "duration" : 450
       },
       "status" : "passed",
       "steps" : [ ],
@@ -188,11 +248,29 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "Check disclaimer for non-approved states is visible",
+      "name" : "Select pricing plan",
       "time" : {
-        "start" : 1615497441736,
-        "stop" : 1615497441786,
-        "duration" : 50
+        "start" : 1615498121220,
+        "stop" : 1615498121273,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "plan",
+        "value" : "'Fyve'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Mark checkbox Add property",
+      "time" : {
+        "start" : 1615498121273,
+        "stop" : 1615498121335,
+        "duration" : 62
       },
       "status" : "passed",
       "steps" : [ ],
@@ -205,9 +283,9 @@
     }, {
       "name" : "Click Complete button",
       "time" : {
-        "start" : 1615497441786,
-        "stop" : 1615497442948,
-        "duration" : 1162
+        "start" : 1615498121335,
+        "stop" : 1615498122388,
+        "duration" : 1053
       },
       "status" : "passed",
       "steps" : [ ],
@@ -220,9 +298,9 @@
     }, {
       "name" : "Check thank you text is displayed",
       "time" : {
-        "start" : 1615497442948,
-        "stop" : 1615497443152,
-        "duration" : 204
+        "start" : 1615498122388,
+        "stop" : 1615498125463,
+        "duration" : 3075
       },
       "status" : "passed",
       "steps" : [ ],
@@ -238,9 +316,9 @@
     }, {
       "name" : "Check successfully added property text is displayed",
       "time" : {
-        "start" : 1615497443152,
-        "stop" : 1615497443209,
-        "duration" : 57
+        "start" : 1615498125463,
+        "stop" : 1615498125477,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -253,16 +331,16 @@
     }, {
       "name" : "Check property card text is displayed",
       "time" : {
-        "start" : 1615497443209,
-        "stop" : 1615497443318,
-        "duration" : 109
+        "start" : 1615498125477,
+        "stop" : 1615498125491,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "text",
-        "value" : "'New York, NY 10001, United States'"
+        "value" : "'Cleveland, OH 44181, United States'"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -271,9 +349,9 @@
     }, {
       "name" : "Click Continue",
       "time" : {
-        "start" : 1615497443318,
-        "stop" : 1615497443552,
-        "duration" : 234
+        "start" : 1615498125491,
+        "stop" : 1615498125533,
+        "duration" : 42
       },
       "status" : "passed",
       "steps" : [ ],
@@ -286,9 +364,9 @@
     }, {
       "name" : "Check user greeting text is correct",
       "time" : {
-        "start" : 1615497443552,
-        "stop" : 1615497443714,
-        "duration" : 162
+        "start" : 1615498125533,
+        "stop" : 1615498125862,
+        "duration" : 329
       },
       "status" : "passed",
       "steps" : [ ],
@@ -304,7 +382,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 13,
+    "stepsCount" : 17,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -312,18 +390,18 @@
   "afterStages" : [ {
     "name" : "open_base_url::0",
     "time" : {
-      "start" : 1615497443714,
-      "stop" : 1615497443956,
-      "duration" : 242
+      "start" : 1615498125862,
+      "stop" : 1615498126056,
+      "duration" : 194
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "6fc761681c21fe10",
+      "uid" : "bb67cbc5518c7f4",
       "name" : "Screenshot",
-      "source" : "6fc761681c21fe10.png",
+      "source" : "bb67cbc5518c7f4.png",
       "type" : "image/png",
-      "size" : 77811
+      "size" : 72733
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -348,10 +426,10 @@
     "value" : "TestAddProperty"
   }, {
     "name" : "host",
-    "value" : "fv-az127-851"
+    "value" : "fv-az361-96"
   }, {
     "name" : "thread",
-    "value" : "4559-MainThread"
+    "value" : "4967-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -375,6 +453,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.usefixtures('open_base_url')" ]
   },
-  "source" : "836c98eb51a23a19.json",
+  "source" : "f52ab844a68bf148.json",
   "parameterValues" : [ ]
 }
