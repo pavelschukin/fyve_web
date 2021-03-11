@@ -1,7 +1,7 @@
 name: Run Autotests on Web
 on:
   push:
-    branches: [ autotests ]
+    branches: [ master ]
 jobs:
   build:
     runs-on: ubuntu-latest
