@@ -1,0 +1,50 @@
+name: Run Autotests on Web
+on:
+  push:
+    branches: [ autotests ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Cache pip
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Install allure
+        run: |
+          curl -o allure-2.7.0.tgz -Ls https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/2.7.0/allure-2.7.0.tgz
+          sudo tar -zxvf allure-2.7.0.tgz -C /opt/
+          sudo ln -s /opt/allure-2.7.0/bin/allure /usr/bin/allure
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt install -y python3-venv
+          python3 -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+      - name: Run tests
+        run: |
+          source venv/bin/activate
+          pytest tests/
+      - name: Generate report
+        if: always()
+        run: |
+          allure generate allure-results -o allure-report
+      - name: Store report
+        uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: report
+          path: ./allure-report/
+      - name: Deploy report
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        if: always()
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: allure-report # The folder the action should deploy.
