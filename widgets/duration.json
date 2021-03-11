@@ -1,0 +1,131 @@
+[ {
+  "uid" : "e474d917d2eabd8a",
+  "name" : "User cannot register without email",
+  "time" : {
+    "start" : 1615497452707,
+    "stop" : 1615497457007,
+    "duration" : 4300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd2d78539ef484d2",
+  "name" : "User can register without indication of state",
+  "time" : {
+    "start" : 1615497451465,
+    "stop" : 1615497463297,
+    "duration" : 11832
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4818ff77163fb3e",
+  "name" : "User can resend code",
+  "time" : {
+    "start" : 1615497465799,
+    "stop" : 1615497527027,
+    "duration" : 61228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66f06be625e3afd2",
+  "name" : "User can register in multiple approved states - Florida and Tennessee",
+  "time" : {
+    "start" : 1615497452891,
+    "stop" : 1615497465521,
+    "duration" : 12630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "467acc0edec6e528",
+  "name" : "User can register property in approved state - Ohio as Individual with mailing address in non-approved state",
+  "time" : {
+    "start" : 1615497436533,
+    "stop" : 1615497448236,
+    "duration" : 11703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9db279cf069cb4f1",
+  "name" : "User can register in non-approved state - Alabama",
+  "time" : {
+    "start" : 1615497451661,
+    "stop" : 1615497464493,
+    "duration" : 12832
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "836c98eb51a23a19",
+  "name" : "User can register property in non-approved state - New York as Individual",
+  "time" : {
+    "start" : 1615497436667,
+    "stop" : 1615497443714,
+    "duration" : 7047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "563e88dc0431e1eb",
+  "name" : "User cannot register with invalid number",
+  "time" : {
+    "start" : 1615497447531,
+    "stop" : 1615497447965,
+    "duration" : 434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b5375eabc011104",
+  "name" : "User can register in approved state - Florida",
+  "time" : {
+    "start" : 1615497436643,
+    "stop" : 1615497442435,
+    "duration" : 5792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "828d681325086444",
+  "name" : "User cannot register without first name",
+  "time" : {
+    "start" : 1615497446491,
+    "stop" : 1615497453262,
+    "duration" : 6771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7be81c0bc718081d",
+  "name" : "User cannot register without last name",
+  "time" : {
+    "start" : 1615497457739,
+    "stop" : 1615497461902,
+    "duration" : 4163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56362faabadc1b85",
+  "name" : "User can register property in approved state - Florida as Individual with mailing address in approved state",
+  "time" : {
+    "start" : 1615497436819,
+    "stop" : 1615497448340,
+    "duration" : 11521
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f01048feff8c5a2",
+  "name" : "User can register property in approved state - Tennessee as Entity with mailing address in approved state",
+  "time" : {
+    "start" : 1615497436419,
+    "stop" : 1615497448888,
+    "duration" : 12469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

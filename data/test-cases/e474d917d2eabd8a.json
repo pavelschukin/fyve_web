@@ -1,0 +1,248 @@
+{
+  "uid" : "e474d917d2eabd8a",
+  "name" : "User cannot register without email",
+  "fullName" : "tests.test_registration.TestRegistration#test_user_cannot_register_without_email",
+  "historyId" : "618939a1793530e1fd807739b1f7f026",
+  "time" : {
+    "start" : 1615497452707,
+    "stop" : 1615497457007,
+    "duration" : 4300
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1615497427221,
+      "stop" : 1615497427274,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "open_base_url",
+    "time" : {
+      "start" : 1615497449155,
+      "stop" : 1615497452706,
+      "duration" : 3551
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open url",
+      "time" : {
+        "start" : 1615497450679,
+        "stop" : 1615497452706,
+        "duration" : 2027
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://portal.fyve-cloud.com/'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "inject_config",
+    "time" : {
+      "start" : 1615497449155,
+      "stop" : 1615497449155,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate first name",
+      "time" : {
+        "start" : 1615497452707,
+        "stop" : 1615497452832,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Generate phone",
+      "time" : {
+        "start" : 1615497452832,
+        "stop" : 1615497452832,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Submit phone number",
+      "time" : {
+        "start" : 1615497452832,
+        "stop" : 1615497454304,
+        "duration" : 1472
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "'4006600000'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Submit signup form",
+      "time" : {
+        "start" : 1615497454418,
+        "stop" : 1615497456958,
+        "duration" : 2540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first_name",
+        "value" : "'Test Jose'"
+      }, {
+        "name" : "last_name",
+        "value" : "'Taylor'"
+      }, {
+        "name" : "email",
+        "value" : "''"
+      }, {
+        "name" : "property_owner",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check error text for sign up form validation is correct",
+      "time" : {
+        "start" : 1615497456959,
+        "stop" : 1615497457007,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Error: email must be a valid mail address string'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_base_url::0",
+    "time" : {
+      "start" : 1615497457008,
+      "stop" : 1615497459746,
+      "duration" : 2738
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e7bec2db86db3449",
+      "name" : "Screenshot",
+      "source" : "e7bec2db86db3449.png",
+      "type" : "image/png",
+      "size" : 858296
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Bets History Page"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('open_base_url')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegistration"
+  }, {
+    "name" : "host",
+    "value" : "fv-az127-851"
+  }, {
+    "name" : "thread",
+    "value" : "4559-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('open_base_url')" ]
+  },
+  "source" : "e474d917d2eabd8a.json",
+  "parameterValues" : [ ]
+}

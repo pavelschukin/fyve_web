@@ -1,0 +1,461 @@
+{
+  "uid" : "3f01048feff8c5a2",
+  "name" : "User can register property in approved state - Tennessee as Entity with mailing address in approved state",
+  "fullName" : "tests.test_add_property.TestAddProperty#test_user_can_register_property_in_approved_state_as_entity",
+  "historyId" : "ff04afb93bc7306f0b327e4d48c64184",
+  "time" : {
+    "start" : 1615497436419,
+    "stop" : 1615497448888,
+    "duration" : 12469
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1615497427199,
+      "stop" : 1615497427269,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "inject_config",
+    "time" : {
+      "start" : 1615497427269,
+      "stop" : 1615497427269,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "open_base_url",
+    "time" : {
+      "start" : 1615497427269,
+      "stop" : 1615497436417,
+      "duration" : 9148
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open url",
+      "time" : {
+        "start" : 1615497433517,
+        "stop" : 1615497436417,
+        "duration" : 2900
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://portal.fyve-cloud.com/'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Submit phone number",
+      "time" : {
+        "start" : 1615497436504,
+        "stop" : 1615497438552,
+        "duration" : 2048
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "'4759900000'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Submit otp code",
+      "time" : {
+        "start" : 1615497438552,
+        "stop" : 1615497439061,
+        "duration" : 509
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "code",
+        "value" : "'1234'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check user greeting text is correct",
+      "time" : {
+        "start" : 1615497439061,
+        "stop" : 1615497439943,
+        "duration" : 882
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first_name",
+        "value" : "'Autotest John'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Add property",
+      "time" : {
+        "start" : 1615497439943,
+        "stop" : 1615497440228,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill property address",
+      "time" : {
+        "start" : 1615497440229,
+        "stop" : 1615497441342,
+        "duration" : 1113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zip",
+        "value" : "'37221'"
+      }, {
+        "name" : "street",
+        "value" : "'28149 Leslie Plain Suite 918'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check city and state in Property Address are correct",
+      "time" : {
+        "start" : 1615497441342,
+        "stop" : 1615497441694,
+        "duration" : 352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "city",
+        "value" : "'Nashville'"
+      }, {
+        "name" : "state",
+        "value" : "'TN'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fill Owners info - Entity",
+      "time" : {
+        "start" : 1615497441694,
+        "stop" : 1615497442918,
+        "duration" : 1224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "owners_name",
+        "value" : "'Fyve LLC'"
+      }, {
+        "name" : "authorized_person",
+        "value" : "'Autotest John'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fill Mailing Address",
+      "time" : {
+        "start" : 1615497442918,
+        "stop" : 1615497443718,
+        "duration" : 800
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zip",
+        "value" : "'37221'"
+      }, {
+        "name" : "street",
+        "value" : "'28149 Leslie Plain Suite 918'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check city and state in Mailing Address are correct",
+      "time" : {
+        "start" : 1615497443718,
+        "stop" : 1615497443992,
+        "duration" : 274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "city",
+        "value" : "'Nashville'"
+      }, {
+        "name" : "state",
+        "value" : "'TN'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select pricing plan",
+      "time" : {
+        "start" : 1615497443992,
+        "stop" : 1615497444072,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "plan",
+        "value" : "'Gold'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Mark checkbox Add property",
+      "time" : {
+        "start" : 1615497444072,
+        "stop" : 1615497444235,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Complete button",
+      "time" : {
+        "start" : 1615497444235,
+        "stop" : 1615497445356,
+        "duration" : 1121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check thank you text is displayed",
+      "time" : {
+        "start" : 1615497445356,
+        "stop" : 1615497448505,
+        "duration" : 3149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first_name",
+        "value" : "'Autotest John'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check successfully added property text is displayed",
+      "time" : {
+        "start" : 1615497448505,
+        "stop" : 1615497448557,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check property card text is displayed",
+      "time" : {
+        "start" : 1615497448557,
+        "stop" : 1615497448612,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Nashville, TN 37221, United States'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Continue",
+      "time" : {
+        "start" : 1615497448612,
+        "stop" : 1615497448745,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check user greeting text is correct",
+      "time" : {
+        "start" : 1615497448745,
+        "stop" : 1615497448888,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first_name",
+        "value" : "'Autotest John'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_base_url::0",
+    "time" : {
+      "start" : 1615497448889,
+      "stop" : 1615497449294,
+      "duration" : 405
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3a01091904e7a014",
+      "name" : "Screenshot",
+      "source" : "3a01091904e7a014.png",
+      "type" : "image/png",
+      "size" : 76463
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add Property"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('open_base_url')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_property"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddProperty"
+  }, {
+    "name" : "host",
+    "value" : "fv-az127-851"
+  }, {
+    "name" : "thread",
+    "value" : "4557-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_add_property"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('open_base_url')" ]
+  },
+  "source" : "3f01048feff8c5a2.json",
+  "parameterValues" : [ ]
+}

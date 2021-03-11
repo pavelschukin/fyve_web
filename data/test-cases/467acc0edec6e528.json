@@ -1,0 +1,458 @@
+{
+  "uid" : "467acc0edec6e528",
+  "name" : "User can register property in approved state - Ohio as Individual with mailing address in non-approved state",
+  "fullName" : "tests.test_add_property.TestAddProperty#test_user_can_register_property_in_approved_state_with_mailing_in_non_approved_state",
+  "historyId" : "c2bde7201a8729b5fb535b7ae5f80abb",
+  "time" : {
+    "start" : 1615497436533,
+    "stop" : 1615497448236,
+    "duration" : 11703
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "inject_config",
+    "time" : {
+      "start" : 1615497427277,
+      "stop" : 1615497427277,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "open_base_url",
+    "time" : {
+      "start" : 1615497427277,
+      "stop" : 1615497436531,
+      "duration" : 9254
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open url",
+      "time" : {
+        "start" : 1615497433523,
+        "stop" : 1615497436531,
+        "duration" : 3008
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://portal.fyve-cloud.com/'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1615497427215,
+      "stop" : 1615497427277,
+      "duration" : 62
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Submit phone number",
+      "time" : {
+        "start" : 1615497436578,
+        "stop" : 1615497438521,
+        "duration" : 1943
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "'4759900000'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Submit otp code",
+      "time" : {
+        "start" : 1615497438521,
+        "stop" : 1615497439151,
+        "duration" : 630
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "code",
+        "value" : "'1234'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check user greeting text is correct",
+      "time" : {
+        "start" : 1615497439151,
+        "stop" : 1615497440107,
+        "duration" : 956
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first_name",
+        "value" : "'Autotest John'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Add property",
+      "time" : {
+        "start" : 1615497440107,
+        "stop" : 1615497440429,
+        "duration" : 322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Fill property address",
+      "time" : {
+        "start" : 1615497440429,
+        "stop" : 1615497441057,
+        "duration" : 628
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zip",
+        "value" : "'44181'"
+      }, {
+        "name" : "street",
+        "value" : "'7698 Ward View'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check city and state in Property Address are correct",
+      "time" : {
+        "start" : 1615497441057,
+        "stop" : 1615497441636,
+        "duration" : 579
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "city",
+        "value" : "'Cleveland'"
+      }, {
+        "name" : "state",
+        "value" : "'OH'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fill Owners info",
+      "time" : {
+        "start" : 1615497441636,
+        "stop" : 1615497442124,
+        "duration" : 488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "owners_name",
+        "value" : "'Autotest John'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Fill Mailing Address",
+      "time" : {
+        "start" : 1615497442125,
+        "stop" : 1615497442865,
+        "duration" : 740
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "zip",
+        "value" : "'10001'"
+      }, {
+        "name" : "street",
+        "value" : "'7698 Ward View'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check city and state in Mailing Address are correct",
+      "time" : {
+        "start" : 1615497442865,
+        "stop" : 1615497443079,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "city",
+        "value" : "'New York'"
+      }, {
+        "name" : "state",
+        "value" : "'NY'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select pricing plan",
+      "time" : {
+        "start" : 1615497443079,
+        "stop" : 1615497443294,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "plan",
+        "value" : "'Fyve'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Mark checkbox Add property",
+      "time" : {
+        "start" : 1615497443295,
+        "stop" : 1615497443521,
+        "duration" : 226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Complete button",
+      "time" : {
+        "start" : 1615497443521,
+        "stop" : 1615497444643,
+        "duration" : 1122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check thank you text is displayed",
+      "time" : {
+        "start" : 1615497444643,
+        "stop" : 1615497447630,
+        "duration" : 2987
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first_name",
+        "value" : "'Autotest John'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check successfully added property text is displayed",
+      "time" : {
+        "start" : 1615497447630,
+        "stop" : 1615497447667,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check property card text is displayed",
+      "time" : {
+        "start" : 1615497447667,
+        "stop" : 1615497447715,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Cleveland, OH 44181, United States'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click Continue",
+      "time" : {
+        "start" : 1615497447715,
+        "stop" : 1615497447879,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check user greeting text is correct",
+      "time" : {
+        "start" : 1615497447879,
+        "stop" : 1615497448236,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first_name",
+        "value" : "'Autotest John'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_base_url::0",
+    "time" : {
+      "start" : 1615497448237,
+      "stop" : 1615497448601,
+      "duration" : 364
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3f566a4b57c27e5c",
+      "name" : "Screenshot",
+      "source" : "3f566a4b57c27e5c.png",
+      "type" : "image/png",
+      "size" : 76466
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add Property"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('open_base_url')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_property"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddProperty"
+  }, {
+    "name" : "host",
+    "value" : "fv-az127-851"
+  }, {
+    "name" : "thread",
+    "value" : "4563-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_add_property"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('open_base_url')" ]
+  },
+  "source" : "467acc0edec6e528.json",
+  "parameterValues" : [ ]
+}

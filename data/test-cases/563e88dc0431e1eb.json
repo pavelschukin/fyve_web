@@ -1,0 +1,191 @@
+{
+  "uid" : "563e88dc0431e1eb",
+  "name" : "User cannot register with invalid number",
+  "fullName" : "tests.test_registration.TestRegistration#test_user_cannot_register_with_invalid_number",
+  "historyId" : "01454ce18d9b96f79335e6c6397ed0fc",
+  "time" : {
+    "start" : 1615497447531,
+    "stop" : 1615497447965,
+    "duration" : 434
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "inject_config",
+    "time" : {
+      "start" : 1615497443960,
+      "stop" : 1615497443960,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1615497427221,
+      "stop" : 1615497427274,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "open_base_url",
+    "time" : {
+      "start" : 1615497443960,
+      "stop" : 1615497447530,
+      "duration" : 3570
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open url",
+      "time" : {
+        "start" : 1615497445254,
+        "stop" : 1615497447530,
+        "duration" : 2276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://portal.fyve-cloud.com/'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Submit phone number",
+      "time" : {
+        "start" : 1615497447531,
+        "stop" : 1615497447938,
+        "duration" : 407
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "'00000'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check error text for mobile number validation is correct",
+      "time" : {
+        "start" : 1615497447938,
+        "stop" : 1615497447965,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'Please enter a valid phone number'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_base_url::0",
+    "time" : {
+      "start" : 1615497447966,
+      "stop" : 1615497449150,
+      "duration" : 1184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7aa54be2f09bcd66",
+      "name" : "Screenshot",
+      "source" : "7aa54be2f09bcd66.png",
+      "type" : "image/png",
+      "size" : 880405
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Bets History Page"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('open_base_url')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegistration"
+  }, {
+    "name" : "host",
+    "value" : "fv-az127-851"
+  }, {
+    "name" : "thread",
+    "value" : "4559-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('open_base_url')" ]
+  },
+  "source" : "563e88dc0431e1eb.json",
+  "parameterValues" : [ ]
+}

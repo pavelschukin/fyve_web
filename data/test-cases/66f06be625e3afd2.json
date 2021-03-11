@@ -1,0 +1,317 @@
+{
+  "uid" : "66f06be625e3afd2",
+  "name" : "User can register in multiple approved states - Florida and Tennessee",
+  "fullName" : "tests.test_registration.TestRegistration#test_user_can_register_in_multiple_approved_state",
+  "historyId" : "a71203efe806778f22e68dcec0e80b2c",
+  "time" : {
+    "start" : 1615497452891,
+    "stop" : 1615497465521,
+    "duration" : 12630
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "inject_config",
+    "time" : {
+      "start" : 1615497449302,
+      "stop" : 1615497449302,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1615497427199,
+      "stop" : 1615497427269,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "open_base_url",
+    "time" : {
+      "start" : 1615497449302,
+      "stop" : 1615497452890,
+      "duration" : 3588
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open url",
+      "time" : {
+        "start" : 1615497450945,
+        "stop" : 1615497452889,
+        "duration" : 1944
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://portal.fyve-cloud.com/'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate phone",
+      "time" : {
+        "start" : 1615497452891,
+        "stop" : 1615497452891,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Generate first name",
+      "time" : {
+        "start" : 1615497452891,
+        "stop" : 1615497452997,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Generate email",
+      "time" : {
+        "start" : 1615497452997,
+        "stop" : 1615497452997,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Submit phone number",
+      "time" : {
+        "start" : 1615497452998,
+        "stop" : 1615497454516,
+        "duration" : 1518
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "'6243100000'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Submit signup form",
+      "time" : {
+        "start" : 1615497454562,
+        "stop" : 1615497465427,
+        "duration" : 10865
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select property owner type",
+        "time" : {
+          "start" : 1615497457093,
+          "stop" : 1615497464122,
+          "duration" : 7029
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "type",
+          "value" : "'Not yet, looking to buy a property and rent it'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Select approved state - Florida or states - Florida and Tennessee",
+        "time" : {
+          "start" : 1615497464122,
+          "stop" : 1615497464305,
+          "duration" : 183
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "multiple",
+          "value" : "True"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first_name",
+        "value" : "'Test Stephanie'"
+      }, {
+        "name" : "last_name",
+        "value" : "'Rivera'"
+      }, {
+        "name" : "email",
+        "value" : "'a5f3e681@example.com'"
+      }, {
+        "name" : "property_owner",
+        "value" : "'Not yet, looking to buy a property and rent it'"
+      }, {
+        "name" : "multiple_approved_states",
+        "value" : "True"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check user is redirected to Overview page",
+      "time" : {
+        "start" : 1615497465428,
+        "stop" : 1615497465481,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check user property title text is correct",
+      "time" : {
+        "start" : 1615497465481,
+        "stop" : 1615497465520,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first_name",
+        "value" : "'Test Stephanie'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_base_url::0",
+    "time" : {
+      "start" : 1615497465521,
+      "stop" : 1615497465823,
+      "duration" : 302
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b513ceb861f4fb08",
+      "name" : "Screenshot",
+      "source" : "b513ceb861f4fb08.png",
+      "type" : "image/png",
+      "size" : 83431
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Bets History Page"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('open_base_url')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegistration"
+  }, {
+    "name" : "host",
+    "value" : "fv-az127-851"
+  }, {
+    "name" : "thread",
+    "value" : "4557-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('open_base_url')" ]
+  },
+  "source" : "66f06be625e3afd2.json",
+  "parameterValues" : [ ]
+}

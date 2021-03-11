@@ -1,0 +1,181 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_add_property",
+      "children" : [ {
+        "name" : "TestAddProperty",
+        "children" : [ {
+          "name" : "User can register property in approved state - Tennessee as Entity with mailing address in approved state",
+          "uid" : "3f01048feff8c5a2",
+          "parentUid" : "f55395aaa8dca6f8b295ff2efff66749",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497436419,
+            "stop" : 1615497448888,
+            "duration" : 12469
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User can register property in approved state - Ohio as Individual with mailing address in non-approved state",
+          "uid" : "467acc0edec6e528",
+          "parentUid" : "f55395aaa8dca6f8b295ff2efff66749",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497436533,
+            "stop" : 1615497448236,
+            "duration" : 11703
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User can register property in non-approved state - New York as Individual",
+          "uid" : "836c98eb51a23a19",
+          "parentUid" : "f55395aaa8dca6f8b295ff2efff66749",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497436667,
+            "stop" : 1615497443714,
+            "duration" : 7047
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User can register property in approved state - Florida as Individual with mailing address in approved state",
+          "uid" : "56362faabadc1b85",
+          "parentUid" : "f55395aaa8dca6f8b295ff2efff66749",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497436819,
+            "stop" : 1615497448340,
+            "duration" : 11521
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f55395aaa8dca6f8b295ff2efff66749"
+      } ],
+      "uid" : "58143925443ad74963eccb9811dc458d"
+    }, {
+      "name" : "test_registration",
+      "children" : [ {
+        "name" : "TestRegistration",
+        "children" : [ {
+          "name" : "User can register in approved state - Florida",
+          "uid" : "5b5375eabc011104",
+          "parentUid" : "b68d2a345d8cf81f88c2c5d2f6385b38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497436643,
+            "stop" : 1615497442435,
+            "duration" : 5792
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User cannot register without first name",
+          "uid" : "828d681325086444",
+          "parentUid" : "b68d2a345d8cf81f88c2c5d2f6385b38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497446491,
+            "stop" : 1615497453262,
+            "duration" : 6771
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User cannot register with invalid number",
+          "uid" : "563e88dc0431e1eb",
+          "parentUid" : "b68d2a345d8cf81f88c2c5d2f6385b38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497447531,
+            "stop" : 1615497447965,
+            "duration" : 434
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User can register without indication of state",
+          "uid" : "fd2d78539ef484d2",
+          "parentUid" : "b68d2a345d8cf81f88c2c5d2f6385b38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497451465,
+            "stop" : 1615497463297,
+            "duration" : 11832
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User can register in non-approved state - Alabama",
+          "uid" : "9db279cf069cb4f1",
+          "parentUid" : "b68d2a345d8cf81f88c2c5d2f6385b38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497451661,
+            "stop" : 1615497464493,
+            "duration" : 12832
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User cannot register without email",
+          "uid" : "e474d917d2eabd8a",
+          "parentUid" : "b68d2a345d8cf81f88c2c5d2f6385b38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497452707,
+            "stop" : 1615497457007,
+            "duration" : 4300
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User can register in multiple approved states - Florida and Tennessee",
+          "uid" : "66f06be625e3afd2",
+          "parentUid" : "b68d2a345d8cf81f88c2c5d2f6385b38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497452891,
+            "stop" : 1615497465521,
+            "duration" : 12630
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User cannot register without last name",
+          "uid" : "7be81c0bc718081d",
+          "parentUid" : "b68d2a345d8cf81f88c2c5d2f6385b38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497457739,
+            "stop" : 1615497461902,
+            "duration" : 4163
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "User can resend code",
+          "uid" : "e4818ff77163fb3e",
+          "parentUid" : "b68d2a345d8cf81f88c2c5d2f6385b38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1615497465799,
+            "stop" : 1615497527027,
+            "duration" : 61228
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b68d2a345d8cf81f88c2c5d2f6385b38"
+      } ],
+      "uid" : "8d9327f354a9d267e277f39b71d532b5"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}
