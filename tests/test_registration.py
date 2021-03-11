@@ -5,7 +5,7 @@ from data import *
 from helper import *
 
 
-@allure.feature('Bets History Page')
+@allure.feature('Registration')
 @pytest.mark.usefixtures('open_base_url')
 class TestRegistration:
     @allure.title('User can register in approved state - Florida')
