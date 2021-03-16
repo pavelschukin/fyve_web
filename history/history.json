@@ -2,57 +2,60 @@
   "b09319dc60508ee070824b7a9022ed35" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "36dc7f7126e7879",
-      "status" : "passed",
+      "uid" : "c730421bce78dc7b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Autotest John\n            \t  actual: Good afternoon, Autotest John\n            screenshot: file:///home/runner/.selene/screenshots/1615907173045/screen_1615907173047.png",
       "time" : {
-        "start" : 1615498018897,
-        "stop" : 1615498026494,
-        "duration" : 7597
+        "start" : 1615907197368,
+        "stop" : 1615907209757,
+        "duration" : 12389
       }
     } ]
   },
   "a71203efe806778f22e68dcec0e80b2c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e4df8b4ef1e90fc0",
-      "status" : "passed",
+      "uid" : "24c49d34991b2d81",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.property__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Test Tonya\n            \t  actual: Good afternoon, Test Tonya\n            screenshot: file:///home/runner/.selene/screenshots/1615907173187/screen_1615907173191.png",
       "time" : {
-        "start" : 1615498029365,
-        "stop" : 1615498035298,
-        "duration" : 5933
+        "start" : 1615907237684,
+        "stop" : 1615907256457,
+        "duration" : 18773
       }
     } ]
   },
   "b8dfdffeec365daa897d45792b9a9fd4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a925c796981d86e3",
-      "status" : "passed",
+      "uid" : "dcffb5035bd25735",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Autotest John\n            \t  actual: Good afternoon, Autotest John\n            screenshot: file:///home/runner/.selene/screenshots/1615907173329/screen_1615907173331.png",
       "time" : {
-        "start" : 1615498018710,
-        "stop" : 1615498022791,
-        "duration" : 4081
+        "start" : 1615907197989,
+        "stop" : 1615907210654,
+        "duration" : 12665
       }
     } ]
   },
@@ -66,31 +69,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6bf570cddbede7ea",
+      "uid" : "beffce78b8ed26c8",
       "status" : "passed",
       "time" : {
-        "start" : 1615498028740,
-        "stop" : 1615498031175,
-        "duration" : 2435
+        "start" : 1615907257837,
+        "stop" : 1615907260674,
+        "duration" : 2837
       }
     } ]
   },
   "6d8bd09680aec41692a6821910e9f839" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "96d00ae60a1f4040",
-      "status" : "passed",
+      "uid" : "c0c9354a5c3a63e7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.property__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Test Michael\n            \t  actual: Good afternoon, Test Michael\n            screenshot: file:///home/runner/.selene/screenshots/1615907173347/screen_1615907173349.png",
       "time" : {
-        "start" : 1615498018894,
-        "stop" : 1615498021945,
-        "duration" : 3051
+        "start" : 1615907200599,
+        "stop" : 1615907214615,
+        "duration" : 14016
       }
     } ]
   },
@@ -104,12 +108,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "707c6d3755a7f44e",
+      "uid" : "ae528b54e753e098",
       "status" : "passed",
       "time" : {
-        "start" : 1615498027454,
-        "stop" : 1615498029921,
-        "duration" : 2467
+        "start" : 1615907259195,
+        "stop" : 1615907261983,
+        "duration" : 2788
       }
     } ]
   },
@@ -123,69 +127,72 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b04700ab0185246a",
+      "uid" : "e05af554ec10c881",
       "status" : "passed",
       "time" : {
-        "start" : 1615498024002,
-        "stop" : 1615498026314,
-        "duration" : 2312
+        "start" : 1615907218651,
+        "stop" : 1615907222338,
+        "duration" : 3687
       }
     } ]
   },
   "7363aadc4c9ca0dcad319eb11dcab09e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6d12f74bcd984f37",
-      "status" : "passed",
+      "uid" : "101f6a1112952169",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Test John\n            \t  actual: Good afternoon, Test John\n            screenshot: file:///home/runner/.selene/screenshots/1615907173199/screen_1615907173203.png",
       "time" : {
-        "start" : 1615498127892,
-        "stop" : 1615498132784,
-        "duration" : 4892
+        "start" : 1615907238286,
+        "stop" : 1615907256563,
+        "duration" : 18277
       }
     } ]
   },
   "9316ce602b736bb4deccf7c37ca77042" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8713a923e10b5ccc",
-      "status" : "passed",
+      "uid" : "e0945ae3c64d8725",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Test Derrick\n            \t  actual: Good afternoon, Test Derrick\n            screenshot: file:///home/runner/.selene/screenshots/1615907173045/screen_1615907173049.png",
       "time" : {
-        "start" : 1615498028591,
-        "stop" : 1615498034501,
-        "duration" : 5910
+        "start" : 1615907236696,
+        "stop" : 1615907255232,
+        "duration" : 18536
       }
     } ]
   },
   "c2bde7201a8729b5fb535b7ae5f80abb" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f52ab844a68bf148",
-      "status" : "passed",
+      "uid" : "73fe5a0d2bb6101b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Autotest John\n            \t  actual: Good afternoon, Autotest John\n            screenshot: file:///home/runner/.selene/screenshots/1615907173199/screen_1615907173201.png",
       "time" : {
-        "start" : 1615498118334,
-        "stop" : 1615498125862,
-        "duration" : 7528
+        "start" : 1615907198141,
+        "stop" : 1615907210592,
+        "duration" : 12451
       }
     } ]
   },
@@ -199,12 +206,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5a9c810e7dbaba24",
+      "uid" : "60e74010ec0b0a4d",
       "status" : "passed",
       "time" : {
-        "start" : 1615498024849,
-        "stop" : 1615498025012,
-        "duration" : 163
+        "start" : 1615907214814,
+        "stop" : 1615907215508,
+        "duration" : 694
       }
     } ]
   },
@@ -218,31 +225,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8100c20b0b6ae663",
+      "uid" : "843a88d970b97a75",
       "status" : "passed",
       "time" : {
-        "start" : 1615498032581,
-        "stop" : 1615498093462,
-        "duration" : 60881
+        "start" : 1615907259440,
+        "stop" : 1615907320729,
+        "duration" : 61289
       }
     } ]
   },
   "ff04afb93bc7306f0b327e4d48c64184" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a6ea889db1bb1b",
-      "status" : "passed",
+      "uid" : "221c97d0806c0457",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Autotest John\n            \t  actual: Good afternoon, Autotest John\n            screenshot: file:///home/runner/.selene/screenshots/1615907173187/screen_1615907173189.png",
       "time" : {
-        "start" : 1615498018670,
-        "stop" : 1615498026974,
-        "duration" : 8304
+        "start" : 1615907197657,
+        "stop" : 1615907210111,
+        "duration" : 12454
       }
     } ]
   }

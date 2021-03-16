@@ -1,0 +1,327 @@
+{
+  "uid" : "7c1e3a301ab8faeb",
+  "name" : "User can register in multiple approved states - Florida and Tennessee",
+  "fullName" : "tests.test_registration.TestRegistration#test_user_can_register_in_multiple_approved_state",
+  "historyId" : "a71203efe806778f22e68dcec0e80b2c",
+  "time" : {
+    "start" : 1615907213813,
+    "stop" : 1615907234790,
+    "duration" : 20977
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.property__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Test Levi\n            \t  actual: Good afternoon, Test Levi\n            screenshot: file:///home/runner/.selene/screenshots/1615907173187/screen_1615907173190.png",
+  "statusTrace" : "venv/lib/python3.8/site-packages/selene/wait.py:35: in wait_for\n    return condition.fn(entity)\nvenv/lib/python3.8/site-packages/selene/conditions.py:164: in fn\n    return self.match(element.get_actual_webelement())\nvenv/lib/python3.8/site-packages/selene/conditions.py:255: in match\n    raise ConditionMismatchException(expected=self.expected_text, actual=actual_text)\nE   selene.exceptions.ConditionMismatchException: condition did not match\nE               \texpected: Good evening, Test Levi\nE               \t  actual: Good afternoon, Test Levi\n\nDuring handling of the above exception, another exception occurred:\nvenv/lib/python3.8/site-packages/selene/elements.py:227: in _wait_with_screenshot\n    return wait_for(entity, condition, timeout, polling)\nvenv/lib/python3.8/site-packages/selene/wait.py:50: in wait_for\n    raise TimeoutException('''\nE   selenium.common.exceptions.TimeoutException: Message: \nE               failed while waiting 10 seconds\nE               to assert Text\nE               for first_by('css selector', '.property__title')\nE   \nE               reason: ConditionMismatchException: condition did not match\nE               \texpected: Good evening, Test Levi\nE               \t  actual: Good afternoon, Test Levi\n\nDuring handling of the above exception, another exception occurred:\ntests/test_registration.py:53: in test_user_can_register_in_multiple_approved_state\n    DashboardPage().check_user_property_title_is_correct(first_name=first_name)\npages/dashboard_page.py:45: in check_user_property_title_is_correct\n    greeting.should(have.text(f\"Good evening, {first_name}\"))\nvenv/lib/python3.8/site-packages/selene/elements.py:355: in should\n    _wait_with_screenshot(self._webdriver, self, condition, timeout)\nvenv/lib/python3.8/site-packages/selene/elements.py:232: in _wait_with_screenshot\n    raise TimeoutException(msg, e.screen, e.stacktrace)\nE   selenium.common.exceptions.TimeoutException: Message: \nE               failed while waiting 10 seconds\nE               to assert Text\nE               for first_by('css selector', '.property__title')\nE   \nE               reason: ConditionMismatchException: condition did not match\nE               \texpected: Good evening, Test Levi\nE               \t  actual: Good afternoon, Test Levi\nE               screenshot: file:///home/runner/.selene/screenshots/1615907173187/screen_1615907173190.png",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1615907173715,
+      "stop" : 1615907173767,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "open_base_url",
+    "time" : {
+      "start" : 1615907210714,
+      "stop" : 1615907213812,
+      "duration" : 3098
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open url",
+      "time" : {
+        "start" : 1615907212065,
+        "stop" : 1615907213811,
+        "duration" : 1746
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'https://portal.fyve-cloud.com/'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "inject_config",
+    "time" : {
+      "start" : 1615907210713,
+      "stop" : 1615907210714,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.property__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Test Levi\n            \t  actual: Good afternoon, Test Levi\n            screenshot: file:///home/runner/.selene/screenshots/1615907173187/screen_1615907173190.png",
+    "statusTrace" : "venv/lib/python3.8/site-packages/selene/wait.py:35: in wait_for\n    return condition.fn(entity)\nvenv/lib/python3.8/site-packages/selene/conditions.py:164: in fn\n    return self.match(element.get_actual_webelement())\nvenv/lib/python3.8/site-packages/selene/conditions.py:255: in match\n    raise ConditionMismatchException(expected=self.expected_text, actual=actual_text)\nE   selene.exceptions.ConditionMismatchException: condition did not match\nE               \texpected: Good evening, Test Levi\nE               \t  actual: Good afternoon, Test Levi\n\nDuring handling of the above exception, another exception occurred:\nvenv/lib/python3.8/site-packages/selene/elements.py:227: in _wait_with_screenshot\n    return wait_for(entity, condition, timeout, polling)\nvenv/lib/python3.8/site-packages/selene/wait.py:50: in wait_for\n    raise TimeoutException('''\nE   selenium.common.exceptions.TimeoutException: Message: \nE               failed while waiting 10 seconds\nE               to assert Text\nE               for first_by('css selector', '.property__title')\nE   \nE               reason: ConditionMismatchException: condition did not match\nE               \texpected: Good evening, Test Levi\nE               \t  actual: Good afternoon, Test Levi\n\nDuring handling of the above exception, another exception occurred:\ntests/test_registration.py:53: in test_user_can_register_in_multiple_approved_state\n    DashboardPage().check_user_property_title_is_correct(first_name=first_name)\npages/dashboard_page.py:45: in check_user_property_title_is_correct\n    greeting.should(have.text(f\"Good evening, {first_name}\"))\nvenv/lib/python3.8/site-packages/selene/elements.py:355: in should\n    _wait_with_screenshot(self._webdriver, self, condition, timeout)\nvenv/lib/python3.8/site-packages/selene/elements.py:232: in _wait_with_screenshot\n    raise TimeoutException(msg, e.screen, e.stacktrace)\nE   selenium.common.exceptions.TimeoutException: Message: \nE               failed while waiting 10 seconds\nE               to assert Text\nE               for first_by('css selector', '.property__title')\nE   \nE               reason: ConditionMismatchException: condition did not match\nE               \texpected: Good evening, Test Levi\nE               \t  actual: Good afternoon, Test Levi\nE               screenshot: file:///home/runner/.selene/screenshots/1615907173187/screen_1615907173190.png",
+    "steps" : [ {
+      "name" : "Generate phone",
+      "time" : {
+        "start" : 1615907213813,
+        "stop" : 1615907213813,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Generate first name",
+      "time" : {
+        "start" : 1615907213813,
+        "stop" : 1615907213889,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Generate email",
+      "time" : {
+        "start" : 1615907213889,
+        "stop" : 1615907213889,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Submit phone number",
+      "time" : {
+        "start" : 1615907213889,
+        "stop" : 1615907215082,
+        "duration" : 1193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "'7526800000'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Submit signup form",
+      "time" : {
+        "start" : 1615907215136,
+        "stop" : 1615907224508,
+        "duration" : 9372
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select property owner type",
+        "time" : {
+          "start" : 1615907216829,
+          "stop" : 1615907223481,
+          "duration" : 6652
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "type",
+          "value" : "'Not yet, looking to buy a property and rent it'"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Select approved state - Florida or states - Florida and Tennessee",
+        "time" : {
+          "start" : 1615907223481,
+          "stop" : 1615907223747,
+          "duration" : 266
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "multiple",
+          "value" : "True"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first_name",
+        "value" : "'Test Levi'"
+      }, {
+        "name" : "last_name",
+        "value" : "'Gross'"
+      }, {
+        "name" : "email",
+        "value" : "'59bc2c76@example.com'"
+      }, {
+        "name" : "property_owner",
+        "value" : "'Not yet, looking to buy a property and rent it'"
+      }, {
+        "name" : "multiple_approved_states",
+        "value" : "True"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check user is redirected to Overview page",
+      "time" : {
+        "start" : 1615907224508,
+        "stop" : 1615907224535,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check user property title text is correct",
+      "time" : {
+        "start" : 1615907224535,
+        "stop" : 1615907234789,
+        "duration" : 10254
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.property__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Test Levi\n            \t  actual: Good afternoon, Test Levi\n            screenshot: file:///home/runner/.selene/screenshots/1615907173187/screen_1615907173190.png\n\n",
+      "statusTrace" : "  File \"/home/runner/work/fyve_web/fyve_web/venv/lib/python3.8/site-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/home/runner/work/fyve_web/fyve_web/pages/dashboard_page.py\", line 45, in check_user_property_title_is_correct\n    greeting.should(have.text(f\"Good evening, {first_name}\"))\n  File \"/home/runner/work/fyve_web/fyve_web/venv/lib/python3.8/site-packages/selene/elements.py\", line 355, in should\n    _wait_with_screenshot(self._webdriver, self, condition, timeout)\n  File \"/home/runner/work/fyve_web/fyve_web/venv/lib/python3.8/site-packages/selene/elements.py\", line 232, in _wait_with_screenshot\n    raise TimeoutException(msg, e.screen, e.stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "first_name",
+        "value" : "'Test Levi'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "989725930165511d",
+      "name" : "Screenshot",
+      "source" : "989725930165511d.png",
+      "type" : "image/png",
+      "size" : 81163
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open_base_url::0",
+    "time" : {
+      "start" : 1615907235016,
+      "stop" : 1615907235273,
+      "duration" : 257
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a892045d4acc2bd6",
+      "name" : "Screenshot",
+      "source" : "a892045d4acc2bd6.png",
+      "type" : "image/png",
+      "size" : 81163
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Registration"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('open_base_url')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_registration"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegistration"
+  }, {
+    "name" : "host",
+    "value" : "fv-az252-624"
+  }, {
+    "name" : "thread",
+    "value" : "4100-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('open_base_url')" ]
+  },
+  "source" : "7c1e3a301ab8faeb.json",
+  "parameterValues" : [ ]
+}

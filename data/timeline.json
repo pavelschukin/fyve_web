@@ -1,185 +1,185 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az361-96",
+    "name" : "fv-az252-624",
     "children" : [ {
-      "name" : "4977-MainThread",
-      "children" : [ {
-        "name" : "User can resend code",
-        "uid" : "8100c20b0b6ae663",
-        "parentUid" : "cf07864e6c918179cdb8dfff079c6404",
-        "status" : "passed",
-        "time" : {
-          "start" : 1615498032581,
-          "stop" : 1615498093462,
-          "duration" : 60881
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "User cannot register without email",
-        "uid" : "707c6d3755a7f44e",
-        "parentUid" : "cf07864e6c918179cdb8dfff079c6404",
-        "status" : "passed",
-        "time" : {
-          "start" : 1615498027454,
-          "stop" : 1615498029921,
-          "duration" : 2467
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "User can register property in non-approved state - New York as Individual",
-        "uid" : "a925c796981d86e3",
-        "parentUid" : "cf07864e6c918179cdb8dfff079c6404",
-        "status" : "passed",
-        "time" : {
-          "start" : 1615498018710,
-          "stop" : 1615498022791,
-          "duration" : 4081
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "User cannot register with invalid number",
-        "uid" : "5a9c810e7dbaba24",
-        "parentUid" : "cf07864e6c918179cdb8dfff079c6404",
-        "status" : "passed",
-        "time" : {
-          "start" : 1615498024849,
-          "stop" : 1615498025012,
-          "duration" : 163
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cf07864e6c918179cdb8dfff079c6404"
-    }, {
-      "name" : "4964-MainThread",
+      "name" : "4094-MainThread",
       "children" : [ {
         "name" : "User can register property in approved state - Florida as Individual with mailing address in approved state",
-        "uid" : "36dc7f7126e7879",
-        "parentUid" : "766e2ad7c26fda1527c63c4eeb57b8db",
-        "status" : "passed",
+        "uid" : "c730421bce78dc7b",
+        "parentUid" : "27919fddb002a97b2094ffff3dc06e4d",
+        "status" : "broken",
         "time" : {
-          "start" : 1615498018897,
-          "stop" : 1615498026494,
-          "duration" : 7597
+          "start" : 1615907197368,
+          "stop" : 1615907209757,
+          "duration" : 12389
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "User can register in non-approved state - Alabama",
-        "uid" : "8713a923e10b5ccc",
-        "parentUid" : "766e2ad7c26fda1527c63c4eeb57b8db",
-        "status" : "passed",
+        "uid" : "e0945ae3c64d8725",
+        "parentUid" : "27919fddb002a97b2094ffff3dc06e4d",
+        "status" : "broken",
         "time" : {
-          "start" : 1615498028591,
-          "stop" : 1615498034501,
-          "duration" : 5910
+          "start" : 1615907236696,
+          "stop" : 1615907255232,
+          "duration" : 18536
         },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "766e2ad7c26fda1527c63c4eeb57b8db"
-    }, {
-      "name" : "4967-MainThread",
-      "children" : [ {
-        "name" : "User can register without indication of state",
-        "uid" : "6d12f74bcd984f37",
-        "parentUid" : "a9bde537baf0c879e2d83c39fef545e5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1615498127892,
-          "stop" : 1615498132784,
-          "duration" : 4892
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "User can register property in approved state - Ohio as Individual with mailing address in non-approved state",
-        "uid" : "f52ab844a68bf148",
-        "parentUid" : "a9bde537baf0c879e2d83c39fef545e5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1615498118334,
-          "stop" : 1615498125862,
-          "duration" : 7528
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a9bde537baf0c879e2d83c39fef545e5"
-    }, {
-      "name" : "4970-MainThread",
-      "children" : [ {
-        "name" : "User can register in approved state - Florida",
-        "uid" : "96d00ae60a1f4040",
-        "parentUid" : "5c9f406ab2574442e3d02eb5eba8e800",
-        "status" : "passed",
-        "time" : {
-          "start" : 1615498018894,
-          "stop" : 1615498021945,
-          "duration" : 3051
-        },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "User cannot register without last name",
-        "uid" : "6bf570cddbede7ea",
-        "parentUid" : "5c9f406ab2574442e3d02eb5eba8e800",
+        "uid" : "beffce78b8ed26c8",
+        "parentUid" : "27919fddb002a97b2094ffff3dc06e4d",
         "status" : "passed",
         "time" : {
-          "start" : 1615498028740,
-          "stop" : 1615498031175,
-          "duration" : 2435
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "User cannot register without first name",
-        "uid" : "b04700ab0185246a",
-        "parentUid" : "5c9f406ab2574442e3d02eb5eba8e800",
-        "status" : "passed",
-        "time" : {
-          "start" : 1615498024002,
-          "stop" : 1615498026314,
-          "duration" : 2312
+          "start" : 1615907257837,
+          "stop" : 1615907260674,
+          "duration" : 2837
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5c9f406ab2574442e3d02eb5eba8e800"
+      "uid" : "27919fddb002a97b2094ffff3dc06e4d"
     }, {
-      "name" : "4974-MainThread",
+      "name" : "4108-MainThread",
       "children" : [ {
-        "name" : "User can register in multiple approved states - Florida and Tennessee",
-        "uid" : "e4df8b4ef1e90fc0",
-        "parentUid" : "6cae8632fcddf8cf1e4009e96ac6a095",
+        "name" : "User cannot register without first name",
+        "uid" : "e05af554ec10c881",
+        "parentUid" : "979e19dde99ca71ada950a887b280b9a",
         "status" : "passed",
         "time" : {
-          "start" : 1615498029365,
-          "stop" : 1615498035298,
-          "duration" : 5933
+          "start" : 1615907218651,
+          "stop" : 1615907222338,
+          "duration" : 3687
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
+        "name" : "User can register in approved state - Florida",
+        "uid" : "c0c9354a5c3a63e7",
+        "parentUid" : "979e19dde99ca71ada950a887b280b9a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615907200599,
+          "stop" : 1615907214615,
+          "duration" : 14016
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "979e19dde99ca71ada950a887b280b9a"
+    }, {
+      "name" : "4100-MainThread",
+      "children" : [ {
         "name" : "User can register property in approved state - Tennessee as Entity with mailing address in approved state",
-        "uid" : "a6ea889db1bb1b",
-        "parentUid" : "6cae8632fcddf8cf1e4009e96ac6a095",
+        "uid" : "221c97d0806c0457",
+        "parentUid" : "cfb983128c491757bf098f6d16f040b7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615907197657,
+          "stop" : 1615907210111,
+          "duration" : 12454
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "User can register in multiple approved states - Florida and Tennessee",
+        "uid" : "24c49d34991b2d81",
+        "parentUid" : "cfb983128c491757bf098f6d16f040b7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615907237684,
+          "stop" : 1615907256457,
+          "duration" : 18773
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "User cannot register without email",
+        "uid" : "ae528b54e753e098",
+        "parentUid" : "cfb983128c491757bf098f6d16f040b7",
         "status" : "passed",
         "time" : {
-          "start" : 1615498018670,
-          "stop" : 1615498026974,
-          "duration" : 8304
+          "start" : 1615907259195,
+          "stop" : 1615907261983,
+          "duration" : 2788
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6cae8632fcddf8cf1e4009e96ac6a095"
+      "uid" : "cfb983128c491757bf098f6d16f040b7"
+    }, {
+      "name" : "4096-MainThread",
+      "children" : [ {
+        "name" : "User can resend code",
+        "uid" : "843a88d970b97a75",
+        "parentUid" : "52e66420b80e07c9751e8d6140b361b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615907259440,
+          "stop" : 1615907320729,
+          "duration" : 61289
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User can register without indication of state",
+        "uid" : "101f6a1112952169",
+        "parentUid" : "52e66420b80e07c9751e8d6140b361b8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615907238286,
+          "stop" : 1615907256563,
+          "duration" : 18277
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "User can register property in approved state - Ohio as Individual with mailing address in non-approved state",
+        "uid" : "73fe5a0d2bb6101b",
+        "parentUid" : "52e66420b80e07c9751e8d6140b361b8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615907198141,
+          "stop" : 1615907210592,
+          "duration" : 12451
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52e66420b80e07c9751e8d6140b361b8"
+    }, {
+      "name" : "4104-MainThread",
+      "children" : [ {
+        "name" : "User can register property in non-approved state - New York as Individual",
+        "uid" : "dcffb5035bd25735",
+        "parentUid" : "3059eb5313c97159a7643deb5c425b97",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615907197989,
+          "stop" : 1615907210654,
+          "duration" : 12665
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "User cannot register with invalid number",
+        "uid" : "60e74010ec0b0a4d",
+        "parentUid" : "3059eb5313c97159a7643deb5c425b97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615907214814,
+          "stop" : 1615907215508,
+          "duration" : 694
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3059eb5313c97159a7643deb5c425b97"
     } ],
-    "uid" : "8992fec8442bbb0187b2896ce8068515"
+    "uid" : "491357ec309d62e91da7e5c6e6483e67"
   } ],
   "name" : "timeline"
 }
