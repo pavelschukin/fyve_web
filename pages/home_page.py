@@ -44,10 +44,10 @@ class HomePage(BasePage):
 
     @allure.step('Select property owner type')
     def select_property_owner_type(self, type):
-        code = s('#phone_code')
+        customer_type = s('#customer_type')
 
-        code.click()
-        browser.all('select[name="phoneCodeSelect"] > option').element_by(have.text(type)).click()
+        customer_type.click()
+        browser.all('#customer_type > option').element_by(have.attribute('label', type)).click()
 
     @allure.step('Select approved state - Florida or states - Florida and Tennessee')
     def select_approved_state_or_states(self, multiple=None):

@@ -37,12 +37,12 @@ class DashboardPage(BasePage):
     @allure.step('Check user greeting text is correct')
     def check_user_greeting_text_is_correct(self, first_name):
         greeting = s('.login__title')
-        greeting.should(have.text(f"Good evening, {first_name}"))
+        greeting.should(have.text(f", {first_name}"))
 
     @allure.step('Check user property title text is correct')
     def check_user_property_title_is_correct(self, first_name):
         greeting = s('.property__title')
-        greeting.should(have.text(f"Good evening, {first_name}"))
+        greeting.should(have.text(f", {first_name}"))
 
     @allure.step('Click Add property')
     def click_add_property(self):
