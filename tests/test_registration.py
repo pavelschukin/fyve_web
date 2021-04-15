@@ -69,7 +69,7 @@ class TestRegistration:
     @allure.title('User cannot register with invalid number')
     def test_user_cannot_register_with_invalid_number(self):
         HomePage().submit_phone_number('00000')
-        HomePage().check_error_text_for_mobile_is_correct('Please enter a valid phone number')
+        HomePage().check_error_text_for_mobile_is_correct('please provide a valid phone number')
 
     @allure.title('User cannot register without first name')
     def test_user_cannot_register_without_first_name(self):
@@ -79,7 +79,7 @@ class TestRegistration:
         HomePage().submit_signup_form(first_name='',
                                       last_name=Faker().last_name(),
                                       email=email)
-        HomePage().check_error_text_for_signup_form_is_correct('Error: first name must be a valid string')
+        HomePage().check_error_text_for_signup_form_is_correct('Required')
 
     @allure.title('User cannot register without last name')
     def test_user_cannot_register_without_last_name(self):
@@ -90,7 +90,7 @@ class TestRegistration:
         HomePage().submit_signup_form(first_name=first_name,
                                       last_name='',
                                       email=email)
-        HomePage().check_error_text_for_signup_form_is_correct('Error: last name must be a valid string')
+        HomePage().check_error_text_for_signup_form_is_correct('Required')
 
     @allure.title('User cannot register without email')
     def test_user_cannot_register_without_email(self):
@@ -99,8 +99,9 @@ class TestRegistration:
         HomePage().submit_phone_number(phone)
         HomePage().submit_signup_form(first_name=first_name,
                                       last_name=Faker().last_name(),
-                                      email='')
-        HomePage().check_error_text_for_signup_form_is_correct('Error: email must be a valid mail address string')
+                                      email='test',
+                                      property_owner='No, I am a renter')
+        HomePage().check_error_text_for_signup_form_is_correct('Invalid email address')
 
     @allure.title('User can resend code')
     def test_user_can_resend_code(self):

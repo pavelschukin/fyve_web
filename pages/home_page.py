@@ -16,7 +16,7 @@ class HomePage(BasePage):
 
     @allure.step('Submit phone number')
     def submit_phone_number(self, phone):
-        self.phone_input.set(phone)
+        self.phone_input.set(phone).press_tab()
         self.continue_button.click()
         self.spinner.should_not(be.visible)
 
@@ -86,7 +86,7 @@ class HomePage(BasePage):
 
     @allure.step('Check error text for mobile number validation is correct')
     def check_error_text_for_mobile_is_correct(self, text):
-        error = s('.invalid-feedback')
+        error = s('.error')
         error.should(have.text(text))
 
     @allure.step('Click Continue')
