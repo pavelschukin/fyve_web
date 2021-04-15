@@ -1,54 +1,55 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "Add Property",
     "children" : [ {
-      "name" : "User can register property in approved state - Florida as Individual with mailing address in approved state",
-      "uid" : "c730421bce78dc7b",
-      "parentUid" : "1f34f3253fe14d97c79c65092f176725",
-      "status" : "broken",
-      "time" : {
-        "start" : 1615907197368,
-        "stop" : 1615907209757,
-        "duration" : 12389
-      },
-      "flaky" : true,
-      "parameters" : [ ]
-    }, {
       "name" : "User can register property in approved state - Tennessee as Entity with mailing address in approved state",
-      "uid" : "221c97d0806c0457",
+      "uid" : "1bd94f42d672db8d",
       "parentUid" : "1f34f3253fe14d97c79c65092f176725",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1615907197657,
-        "stop" : 1615907210111,
-        "duration" : 12454
+        "start" : 1618499941400,
+        "stop" : 1618499952261,
+        "duration" : 10861
       },
-      "flaky" : true,
+      "flaky" : false,
       "parameters" : [ ]
     }, {
-      "name" : "User can register property in non-approved state - New York as Individual",
-      "uid" : "dcffb5035bd25735",
+      "name" : "User can register property in approved state - Florida as Individual with mailing address in approved state",
+      "uid" : "52abc74e3bf17d12",
       "parentUid" : "1f34f3253fe14d97c79c65092f176725",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1615907197989,
-        "stop" : 1615907210654,
-        "duration" : 12665
+        "start" : 1618499942537,
+        "stop" : 1618499952549,
+        "duration" : 10012
       },
-      "flaky" : true,
+      "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "User can register property in approved state - Ohio as Individual with mailing address in non-approved state",
-      "uid" : "73fe5a0d2bb6101b",
+      "uid" : "58bd1cc8dc967f39",
       "parentUid" : "1f34f3253fe14d97c79c65092f176725",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1615907198141,
-        "stop" : 1615907210592,
-        "duration" : 12451
+        "start" : 1618499942578,
+        "stop" : 1618499952776,
+        "duration" : 10198
       },
-      "flaky" : true,
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "User can register property in non-approved state - New York as Individual",
+      "uid" : "1244ab5d2d55100d",
+      "parentUid" : "1f34f3253fe14d97c79c65092f176725",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618499942726,
+        "stop" : 1618499948983,
+        "duration" : 6257
+      },
+      "flaky" : false,
       "parameters" : [ ]
     } ],
     "uid" : "1f34f3253fe14d97c79c65092f176725"
@@ -56,114 +57,113 @@
     "name" : "Registration",
     "children" : [ {
       "name" : "User can register in approved state - Florida",
-      "uid" : "c0c9354a5c3a63e7",
-      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
-      "status" : "broken",
-      "time" : {
-        "start" : 1615907200599,
-        "stop" : 1615907214615,
-        "duration" : 14016
-      },
-      "flaky" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "User cannot register with invalid number",
-      "uid" : "60e74010ec0b0a4d",
+      "uid" : "ee842242112591a7",
       "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
       "status" : "passed",
       "time" : {
-        "start" : 1615907214814,
-        "stop" : 1615907215508,
-        "duration" : 694
+        "start" : 1618499942682,
+        "stop" : 1618499948166,
+        "duration" : 5484
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "User cannot register without first name",
-      "uid" : "e05af554ec10c881",
+      "uid" : "82e0569f8f3f72a0",
       "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
       "status" : "passed",
       "time" : {
-        "start" : 1615907218651,
-        "stop" : 1615907222338,
-        "duration" : 3687
+        "start" : 1618499950754,
+        "stop" : 1618499953547,
+        "duration" : 2793
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
-      "name" : "User can register in non-approved state - Alabama",
-      "uid" : "e0945ae3c64d8725",
-      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
-      "status" : "broken",
-      "time" : {
-        "start" : 1615907236696,
-        "stop" : 1615907255232,
-        "duration" : 18536
-      },
-      "flaky" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "User can register in multiple approved states - Florida and Tennessee",
-      "uid" : "24c49d34991b2d81",
-      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
-      "status" : "broken",
-      "time" : {
-        "start" : 1615907237684,
-        "stop" : 1615907256457,
-        "duration" : 18773
-      },
-      "flaky" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "User can register without indication of state",
-      "uid" : "101f6a1112952169",
-      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
-      "status" : "broken",
-      "time" : {
-        "start" : 1615907238286,
-        "stop" : 1615907256563,
-        "duration" : 18277
-      },
-      "flaky" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "User cannot register without last name",
-      "uid" : "beffce78b8ed26c8",
+      "name" : "User cannot register with invalid number",
+      "uid" : "7a500c24550ed8b4",
       "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
       "status" : "passed",
       "time" : {
-        "start" : 1615907257837,
-        "stop" : 1615907260674,
-        "duration" : 2837
+        "start" : 1618499951498,
+        "stop" : 1618499952254,
+        "duration" : 756
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "User can register in multiple approved states - Florida and Tennessee",
+      "uid" : "19ebcbd8d6128d9",
+      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618499955700,
+        "stop" : 1618499961360,
+        "duration" : 5660
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "User cannot register without email",
-      "uid" : "ae528b54e753e098",
+      "uid" : "67cfeb888521793f",
       "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
       "status" : "passed",
       "time" : {
-        "start" : 1615907259195,
-        "stop" : 1615907261983,
-        "duration" : 2788
+        "start" : 1618499955834,
+        "stop" : 1618499959920,
+        "duration" : 4086
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "User can register in non-approved state - Alabama",
+      "uid" : "eacca69d18a10a49",
+      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618499955877,
+        "stop" : 1618499962381,
+        "duration" : 6504
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "User cannot register without last name",
+      "uid" : "81fec466539da55b",
+      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618499957819,
+        "stop" : 1618499961408,
+        "duration" : 3589
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "User can resend code",
-      "uid" : "843a88d970b97a75",
+      "uid" : "869a833cf25ca0d9",
       "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
       "status" : "passed",
       "time" : {
-        "start" : 1615907259440,
-        "stop" : 1615907320729,
-        "duration" : 61289
+        "start" : 1618499963644,
+        "stop" : 1618500024984,
+        "duration" : 61340
       },
       "flaky" : false,
       "parameters" : [ ]
+    }, {
+      "name" : "User can register without indication of state",
+      "uid" : "10ab4f61000af165",
+      "parentUid" : "c0effe69527f658c5af968b745a6e0ad",
+      "status" : "broken",
+      "time" : {
+        "start" : 1618499974751,
+        "stop" : 1618499987658,
+        "duration" : 12907
+      },
+      "flaky" : true,
+      "parameters" : [ ]
     } ],
     "uid" : "c0effe69527f658c5af968b745a6e0ad"
-  } ],
-  "name" : "behaviors"
+  } ]
 }

@@ -1,137 +1,25 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Autotest John\n            \t  actual: Good afternoon, Autotest John\n            screenshot: file:///home/runner/.selene/screenshots/1615907173045/screen_1615907173047.png",
-      "children" : [ {
-        "name" : "User can register property in approved state - Florida as Individual with mailing address in approved state",
-        "uid" : "c730421bce78dc7b",
-        "parentUid" : "0c46038c22ae2e430acb3770eae79f74",
-        "status" : "broken",
-        "time" : {
-          "start" : 1615907197368,
-          "stop" : 1615907209757,
-          "duration" : 12389
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0c46038c22ae2e430acb3770eae79f74"
-    }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Autotest John\n            \t  actual: Good afternoon, Autotest John\n            screenshot: file:///home/runner/.selene/screenshots/1615907173187/screen_1615907173189.png",
-      "children" : [ {
-        "name" : "User can register property in approved state - Tennessee as Entity with mailing address in approved state",
-        "uid" : "221c97d0806c0457",
-        "parentUid" : "77f3527649d90b6d85db10514e150ecf",
-        "status" : "broken",
-        "time" : {
-          "start" : 1615907197657,
-          "stop" : 1615907210111,
-          "duration" : 12454
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "77f3527649d90b6d85db10514e150ecf"
-    }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Autotest John\n            \t  actual: Good afternoon, Autotest John\n            screenshot: file:///home/runner/.selene/screenshots/1615907173329/screen_1615907173331.png",
-      "children" : [ {
-        "name" : "User can register property in non-approved state - New York as Individual",
-        "uid" : "dcffb5035bd25735",
-        "parentUid" : "0080d3ca538126ae6a12afe1d219f2b8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1615907197989,
-          "stop" : 1615907210654,
-          "duration" : 12665
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0080d3ca538126ae6a12afe1d219f2b8"
-    }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Autotest John\n            \t  actual: Good afternoon, Autotest John\n            screenshot: file:///home/runner/.selene/screenshots/1615907173199/screen_1615907173201.png",
-      "children" : [ {
-        "name" : "User can register property in approved state - Ohio as Individual with mailing address in non-approved state",
-        "uid" : "73fe5a0d2bb6101b",
-        "parentUid" : "430cce2af182838e124a43f8efa189cc",
-        "status" : "broken",
-        "time" : {
-          "start" : 1615907198141,
-          "stop" : 1615907210592,
-          "duration" : 12451
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "430cce2af182838e124a43f8efa189cc"
-    }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.property__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Test Michael\n            \t  actual: Good afternoon, Test Michael\n            screenshot: file:///home/runner/.selene/screenshots/1615907173347/screen_1615907173349.png",
-      "children" : [ {
-        "name" : "User can register in approved state - Florida",
-        "uid" : "c0c9354a5c3a63e7",
-        "parentUid" : "2f6029b71a19c44049efc55fe1fad163",
-        "status" : "broken",
-        "time" : {
-          "start" : 1615907200599,
-          "stop" : 1615907214615,
-          "duration" : 14016
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2f6029b71a19c44049efc55fe1fad163"
-    }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Test Derrick\n            \t  actual: Good afternoon, Test Derrick\n            screenshot: file:///home/runner/.selene/screenshots/1615907173045/screen_1615907173049.png",
-      "children" : [ {
-        "name" : "User can register in non-approved state - Alabama",
-        "uid" : "e0945ae3c64d8725",
-        "parentUid" : "fb174ff921212a6500b26af4c272483b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1615907236696,
-          "stop" : 1615907255232,
-          "duration" : 18536
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fb174ff921212a6500b26af4c272483b"
-    }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.property__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Test Tonya\n            \t  actual: Good afternoon, Test Tonya\n            screenshot: file:///home/runner/.selene/screenshots/1615907173187/screen_1615907173191.png",
-      "children" : [ {
-        "name" : "User can register in multiple approved states - Florida and Tennessee",
-        "uid" : "24c49d34991b2d81",
-        "parentUid" : "2d11f88c4a45c465da6f03dd6e5ad827",
-        "status" : "broken",
-        "time" : {
-          "start" : 1615907237684,
-          "stop" : 1615907256457,
-          "duration" : 18773
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2d11f88c4a45c465da6f03dd6e5ad827"
-    }, {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.login__title')\n\n            reason: ConditionMismatchException: condition did not match\n            \texpected: Good evening, Test John\n            \t  actual: Good afternoon, Test John\n            screenshot: file:///home/runner/.selene/screenshots/1615907173199/screen_1615907173203.png",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \n            failed while waiting 10 seconds\n            to assert Text\n            for first_by('css selector', '.breadcrumb-item')\n\n            reason: NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".breadcrumb-item\"}\n  (Session info: headless chrome=89.0.4389.114)\n\n            screenshot: file:///home/runner/.selene/screenshots/1618499938785/screen_1618499938787.png",
       "children" : [ {
         "name" : "User can register without indication of state",
-        "uid" : "101f6a1112952169",
-        "parentUid" : "6eebe1b40fa276e2c8970e502bc05d2b",
+        "uid" : "10ab4f61000af165",
+        "parentUid" : "39cec228290858de6e2488a238b845c6",
         "status" : "broken",
         "time" : {
-          "start" : 1615907238286,
-          "stop" : 1615907256563,
-          "duration" : 18277
+          "start" : 1618499974751,
+          "stop" : 1618499987658,
+          "duration" : 12907
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "6eebe1b40fa276e2c8970e502bc05d2b"
+      "uid" : "39cec228290858de6e2488a238b845c6"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
-  "name" : "categories"
+  } ]
 }

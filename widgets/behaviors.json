@@ -5,9 +5,9 @@
     "name" : "Registration",
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 8,
       "unknown" : 0,
       "total" : 9
     }
@@ -16,9 +16,9 @@
     "name" : "Add Property",
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 4,
       "unknown" : 0,
       "total" : 4
     }
